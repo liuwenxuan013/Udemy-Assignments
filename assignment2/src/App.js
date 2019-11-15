@@ -20,7 +20,7 @@ class App extends React.Component
       <input type='text'
         onChange={this.inputChangeHandler}
       />
-      <p>{this.state.userInput}</p>
+      <p>{this.state.userInput.length}</p>
 
       <Validation inputLength={this.state.userInput.length} />
     </div>
